@@ -14,7 +14,7 @@ const Twitter = require('twitter-lite');
 		
 		// Search for recent tweets from the twitter API
 		response = await app.get(`/search/tweets`, {
-			q: "Lionel Messi", // The search term
+			q: "COVID-19", // The search term
 			lang: "en",        // Let's only get English tweets
 			cout: 100,         // Limit the results to 100 tweets
 		});
