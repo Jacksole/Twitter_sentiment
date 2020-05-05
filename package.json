@@ -1,0 +1,27 @@
+{
+  "name": "twitter_sentiment",
+  "version": "1.0.0",
+  "description": "A Twitter sentiment analysis to determine how positive or negative Twitter is about the subject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacksole/Twitter_sentiment.git"
+  },
+  "keywords": [
+    "Twitter",
+    "NLP",
+    "Sentiment"
+  ],
+  "author": "Le Aundre D. Jackson Sr.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacksole/Twitter_sentiment/issues"
+  },
+  "homepage": "https://github.com/Jacksole/Twitter_sentiment#readme",
+  "dependencies": {
+    "twitter-lite": "^0.11.0"
+  }
+}
